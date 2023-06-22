@@ -1,0 +1,44 @@
+
+body{
+    color: rgb(0, 0, 0);
+}
+
+img {
+    width: 100%;
+    height:fit-content;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #000;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit, minmax(150px, 1fr)
+    );
+    gap: 32px;
+    align-items: stretch;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navegacion_pint {
+    width: 60%;
+    margin: 30px 70px;
+    display: flex;
+  }
+
+  .logopin {
+    width: 45px;
+    background-color: #f000;
+  }
+  button {
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 55px;
+  }
+  a {
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 19px;
+  }
